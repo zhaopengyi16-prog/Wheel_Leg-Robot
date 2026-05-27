@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: D:\个人提升技能\电子技能\项目储备库\机器狗项目\机器狗项目\硬件工程\驱动工程\qudong .PcbDoc
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

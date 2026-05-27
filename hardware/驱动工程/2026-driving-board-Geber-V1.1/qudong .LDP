@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\个人提升技能\电子技能\项目储备库\机器狗项目\机器狗项目\硬件工程\驱动工程\qudong .PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=qudong -roundholes.txt|DrillLayers=gtl,g1,g2,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=qudong -slotholes.txt|DrillLayers=gtl,g1,g2,gbl

@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [Ë«µç»úÇý¶¯°å.PrjPCB]
+   Generated File[Pick Place for qudong .txt]
+   Generated File[Pick Place for qudong .csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 13:07:55 On 2026/3/14

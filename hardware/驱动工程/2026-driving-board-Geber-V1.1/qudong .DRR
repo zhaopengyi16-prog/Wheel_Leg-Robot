@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: qudong .PcbDoc   2026/3/14  13:07:32
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Signal to Sighal
+ASCII RoundHoles File : qudong -RoundHoles.TXT
+ASCII SlotHoles File : qudong -SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             267       PTH        0.00inch (0.00mm)
+T2      20mil (0.5mm)                                             Round             3         PTH        0.00inch (0.00mm)
+T3      24mil (0.6mm)                                             Slot              2         PTH        0.00inch (0.00mm)
+T4      32mil (0.8mm)                                             Round             12        PTH        0.00inch (0.00mm)
+T5      35mil (0.9mm)                                             Round             6         PTH        0.00inch (0.00mm)
+T6      36mil (0.914mm)                                           Round             6         PTH        0.00inch (0.00mm)
+T7      39mil (1mm)                                               Round             2         PTH        0.00inch (0.00mm)
+T8      79mil (2mm)                                               Round             3         PTH        0.00inch (0.00mm)
+T9      114mil (2.9mm)                                            Round             2         PTH        0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              303
+
+Total Processing Time (hh:mm:ss) : 00:00:00
