@@ -33,6 +33,8 @@ __pycache__/
 *.bak
 *.backup
 *~
+Backup/
+**/Backup/
 
 # Office temporary files
 ~$*.docx
@@ -52,10 +54,13 @@ __pycache__/
 *.iex
 *.htm
 *.build_log.htm
+*.lst
+*.log.lock
 MDK-ARM/**/Objects/
 MDK-ARM/**/Listings/
 firmware/**/MDK-ARM/**/Objects/
 firmware/**/MDK-ARM/**/Listings/
+firmware/**/MDK-ARM/**/Program-wheel-leg-dog/
 
 # Keil / IDE user files
 *.uvguix.*
@@ -88,3 +93,22 @@ History/
 !firmware/**/*.ioc
 !firmware/**/*.uvprojx
 !firmware/**/*.uvoptx
+
+# Re-apply exclusions after broad firmware keep rules
+firmware/**/Backup/**
+firmware/**/*.bak
+firmware/**/*.o
+firmware/**/*.d
+firmware/**/*.crf
+firmware/**/*.axf
+firmware/**/*.hex
+firmware/**/*.map
+firmware/**/*.lnp
+firmware/**/*.dep
+firmware/**/*.iex
+firmware/**/*.htm
+firmware/**/*.lst
+firmware/**/*.log
+firmware/**/*.lock
+firmware/**/*.uvguix.*
+firmware/**/MDK-ARM/**/Program-wheel-leg-dog/

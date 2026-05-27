@@ -4,10 +4,17 @@
 
 ## 基线信息
 
-- 基线编号：待确认
-- 建立日期：待确认
+- 基线编号：cloud-baseline-20260527
+- 建立日期：2026-05-27
 - 记录人：待确认
-- 目标用途：待确认
+- 目标用途：作为个人仓库和合作仓库的云端第一状态
+
+## 云端第一状态范围
+
+- 纳入：当前正式资料、源码、工程文件、CAD、硬件资料和机器人描述包。
+- 排除：编译输出、缓存、临时文件、备份文件和个人配置。
+- 个人仓库 remote：`origin`，URL 待确认。
+- 合作仓库 remote：`collab`，URL 待确认。
 
 ## 硬件基线
 
@@ -28,7 +35,7 @@
 ## 固件基线
 
 - 固件工程路径：`firmware/Program_wheel_leg_dog/Program-wheel-leg-dog/`
-- 固件 commit：待确认
+- 固件 commit：待确认，云端第一状态提交后补充
 - 工具链版本：待确认
 - CubeMX `.ioc` 文件：`Program-wheel-leg-dog.ioc`
 - Keil 工程文件：`MDK-ARM/Program-wheel-leg-dog.uvprojx`
@@ -36,7 +43,7 @@
 ## ROS2 基线
 
 - ROS2 工作区路径：`ros2_ws/`
-- ROS2 commit：待确认
+- ROS2 commit：待确认，云端第一状态提交后补充
 - ROS2 发行版：待确认
 - 描述包路径：当前发现于 `mechanical/robot1_description/`
 
