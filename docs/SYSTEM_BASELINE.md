@@ -13,10 +13,10 @@
 
 - 纳入：当前正式资料、源码、工程文件、CAD、硬件资料和机器人描述包。
 - 排除：编译输出、缓存、临时文件、备份文件和个人配置。
-- 个人仓库 remote：`origin`，URL 待确认。
-- 合作仓库 remote：`collab`，URL 待确认。
+- 个人仓库 remote：`origin`，URL 为 `https://github.com/zhaopengyi16-prog/Wheel_Leg-Robot.git`。
+- 合作仓库 remote：`collab`，URL 为 `https://github.com/Kita-OvO/Wheeled_Robot_Dog.git`。
 - 本地导入状态：已完成。
-- 云端推送状态：待确认。
+- 云端推送状态：准备推送。
 
 ## 本地导入提交
 

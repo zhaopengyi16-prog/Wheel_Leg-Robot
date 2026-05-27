@@ -10,6 +10,7 @@
 - [通信协议](COMMUNICATION_PROTOCOL.md)
 - [版本兼容矩阵](VERSION_COMPATIBILITY.md)
 - [系统基线](SYSTEM_BASELINE.md)
+- [云端同步记录](CLOUD_SYNC_LOG.md)
 
 ## 已有资料
 

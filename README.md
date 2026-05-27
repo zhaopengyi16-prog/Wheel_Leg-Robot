@@ -7,8 +7,10 @@
 - Git 初始化状态：已初始化，默认分支为 `main`。
 - 当前首次提交：`87ecccb chore: initialize wheel-leg robot repository structure`。
 - 云端第一状态范围：已在本地纳入当前正式资料、源码、工程文件、CAD、硬件资料和机器人描述包；已排除编译输出、缓存、临时文件、备份文件和个人配置。
-- 远端策略：个人仓库使用 `origin`，合作仓库使用 `collab`；远端 URL 待确认。
-- 云端推送状态：待提供远端 URL 后推送。
+- 远端策略：个人仓库使用 `origin`，合作仓库使用 `collab`。
+- 个人仓库：`https://github.com/zhaopengyi16-prog/Wheel_Leg-Robot.git`
+- 合作仓库：`https://github.com/Kita-OvO/Wheeled_Robot_Dog.git`
+- 云端推送状态：准备推送，推送记录见 [云端同步记录](docs/CLOUD_SYNC_LOG.md)。
 - STM32 工程：已存在于 `firmware/Program_wheel_leg_dog/Program-wheel-leg-dog/`，包含 CubeMX/Keil 工程文件、`Core/`、`Drivers/`、`MDK-ARM/`。
 - STM32 编译产物：已在 `MDK-ARM/Program-wheel-leg-dog/` 下发现 `.o`、`.d`、`.crf`、`.axf`、`.hex`、`.map` 等文件，后续应由 `.gitignore` 排除。
 - ROS2 工作区：`ros2_ws/` 当前为空。
@@ -39,17 +41,17 @@
 - [通信协议](docs/COMMUNICATION_PROTOCOL.md)
 - [版本兼容矩阵](docs/VERSION_COMPATIBILITY.md)
 - [系统基线](docs/SYSTEM_BASELINE.md)
+- [云端同步记录](docs/CLOUD_SYNC_LOG.md)
 - [实验记录模板](experiments/EXPERIMENT_TEMPLATE.md)
 
 ## 下一步工作
 
-1. 提供个人仓库和合作仓库 URL，用于配置 `origin` 与 `collab`。
-2. 推送 `main` 到个人仓库和合作仓库。
-3. 在云端仓库检查 LFS 文件、README 显示和分支保护设置。
-4. 确认 STM32 工程中备份文件、用户配置文件和编译产物的长期保留策略。
-5. 确认 `mechanical/robot1_description/` 是否未来迁入 `ros2_ws/src/`。
-6. 补充硬件版本、机械版本、固件 commit、ROS2 commit 和整机系统基线。
-7. 建立实验记录流程，并用 `experiments/EXPERIMENT_TEMPLATE.md` 记录每次实机测试。
+1. 推送 `main` 到个人仓库和合作仓库。
+2. 在云端仓库检查 LFS 文件、README 显示和分支保护设置。
+3. 确认 STM32 工程中备份文件、用户配置文件和编译产物的长期保留策略。
+4. 确认 `mechanical/robot1_description/` 是否未来迁入 `ros2_ws/src/`。
+5. 补充硬件版本、机械版本、固件 commit、ROS2 commit 和整机系统基线。
+6. 建立实验记录流程，并用 `experiments/EXPERIMENT_TEMPLATE.md` 记录每次实机测试。
 
 ## 协作约束
 
