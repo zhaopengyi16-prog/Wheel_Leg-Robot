@@ -15,6 +15,16 @@
 - 排除：编译输出、缓存、临时文件、备份文件和个人配置。
 - 个人仓库 remote：`origin`，URL 待确认。
 - 合作仓库 remote：`collab`，URL 待确认。
+- 本地导入状态：已完成。
+- 云端推送状态：待确认。
+
+## 本地导入提交
+
+- 规则与 LFS：`0be2db9 chore: refine ignore and lfs rules for full project sync`
+- 通信与参考文档：`34c2350 docs: import communication and reference documents`
+- STM32 固件工程：`7b81b37 firmware: import stm32 wheel-leg dog project baseline`
+- 硬件设计资料：`9c0313a hardware: import drive board design baseline`
+- 机械 CAD 与机器人描述：`4ef80d6 mechanical: import cad and robot description baseline`
 
 ## 硬件基线
 
@@ -35,7 +45,8 @@
 ## 固件基线
 
 - 固件工程路径：`firmware/Program_wheel_leg_dog/Program-wheel-leg-dog/`
-- 固件 commit：待确认，云端第一状态提交后补充
+- 固件导入 commit：`7b81b37`
+- 固件版本：待确认
 - 工具链版本：待确认
 - CubeMX `.ioc` 文件：`Program-wheel-leg-dog.ioc`
 - Keil 工程文件：`MDK-ARM/Program-wheel-leg-dog.uvprojx`
@@ -43,7 +54,7 @@
 ## ROS2 基线
 
 - ROS2 工作区路径：`ros2_ws/`
-- ROS2 commit：待确认，云端第一状态提交后补充
+- ROS2 commit：待确认
 - ROS2 发行版：待确认
 - 描述包路径：当前发现于 `mechanical/robot1_description/`
 
