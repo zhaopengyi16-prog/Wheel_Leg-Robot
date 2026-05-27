@@ -1,0 +1,90 @@
+# OS and editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/*.log
+.vscode/*.lock
+
+# Private configuration and secrets
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs, caches, temporary files
+*.log
+*.tmp
+*.cache
+*.swp
+*.swo
+*.orig
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Backups
+*.bak
+*.backup
+*~
+
+# Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.xls
+~$*.pptx
+
+# Keil / MDK build outputs
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lnp
+*.dep
+*.iex
+*.htm
+*.build_log.htm
+MDK-ARM/**/Objects/
+MDK-ARM/**/Listings/
+firmware/**/MDK-ARM/**/Objects/
+firmware/**/MDK-ARM/**/Listings/
+
+# Keil / IDE user files
+*.uvguix.*
+*.uvgui.*
+*.uvopt
+
+# STM32CubeIDE / embedded build outputs
+Debug/
+Release/
+build/
+*.elf
+*.bin
+*.list
+
+# ROS2 workspace outputs
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Altium temporary and generated preview files
+__Previews/
+History/
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPCBStructurePreview
+
+# Explicitly keep firmware source and project files trackable
+!firmware/**/Core/**
+!firmware/**/Drivers/**
+!firmware/**/*.ioc
+!firmware/**/*.uvprojx
+!firmware/**/*.uvoptx
